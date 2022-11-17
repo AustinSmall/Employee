@@ -1,17 +1,29 @@
 {
   "name": "sql",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AustinSmall/Employee.git"
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AustinSmall/Employee/issues"
+  },
+  "homepage": "https://github.com/AustinSmall/Employee#readme",
   "dependencies": {
     "console.table": "^0.10.0",
     "inquirer": "^9.1.4",
+    "inquiry": "^0.0.3",
     "mysql": "^2.18.1",
-    "require": "^2.4.20"
-  }
+    "require": "^0.4.9",
+    "requirejs": "^2.3.6",
+    "sql": "^0.78.0"
+  },
+  "description": ""
 }
